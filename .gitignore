@@ -1,0 +1,30 @@
+# PyCharm specific
+.idea/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and junk
+*.log
+
+# Compiled C extensions
+*.so
+
+# dotenv files
+.env
+
+clustering/Kmeans/images
