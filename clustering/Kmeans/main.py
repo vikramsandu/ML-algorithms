@@ -116,7 +116,7 @@ def visualize_clusters(data, centroids_tracker):
 
 
 def kmeans(data, k=3, eps=1e-4, max_iter=1000,
-           visualize=True, pp_init=True):
+           visualize=False, pp_init=True):
     """
     A numpy implementation of the algorithm K-means clustering.
     :param data: Data points
